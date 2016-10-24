@@ -1,5 +1,8 @@
+// credit goes to youTuber Kijjasak Triyanond
+// https://www.youtube.com/watch?v=IkbjktiF52k
+
 //second - (now % second) => now;
-.5::second => dur T; //sync to masterClock/period
+.6::second => dur T; //sync to masterClock/period
 T - (now % T) => now;
 
 
