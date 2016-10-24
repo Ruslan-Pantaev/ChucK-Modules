@@ -1,4 +1,4 @@
-.9::second => dur T; //sync to masterClock/period
+.6::second => dur T; //sync to masterClock/period
 T - (now % T) => now;
 
 //Separate stereo signals (L/R independent)
